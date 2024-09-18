@@ -1,8 +1,8 @@
 #### X-Ray Mass Attenuation Coefficients from NIST (https://www.nist.gov/pml/x-ray-mass-attenuation-coefficients)
-# Energy in MeV, Mass Attenuation Coef, Mass Energy-Absorbition Coef
+# Energy in MeV, Mass Attenuation Coef, Mass Energy-Absorption Coef
 import numpy as np
 
-# Energy [MeV], Mass Attenuation Coef (\mu / \rho) [cm^2 / g], Mass Energy-Absorbtion Coef (\mu_{en} / \rho) [cm^2 / g]
+# Energy [MeV], Mass Attenuation Coef (\mu / \rho) [cm^2 / g], Mass Energy-Absorption Coef (\mu_{en} / \rho) [cm^2 / g]
 
 bone = np.array([[1.00000E-03,3.781E+03,3.772E+03],
                  [1.03542E-03,3.452E+03,3.444E+03],

@@ -1064,7 +1064,7 @@ class Projector(object):
 
         init_tock = time.perf_counter()
         log.debug(
-            f"time elapsed after intializing rest of primary-signal stuff: {init_tock - init_tick}"
+            f"time elapsed after initializing rest of primary-signal stuff: {init_tock - init_tick}"
         )
 
         # Scatter-specific initializations
