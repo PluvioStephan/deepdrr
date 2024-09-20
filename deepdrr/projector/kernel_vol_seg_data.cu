@@ -10,7 +10,7 @@
 #define VOLUME(vol_id) VOL_PASTER(vol_id)
 
 #ifndef NUM_MATERIALS
-#define NUM_MATERIALS 15
+#define NUM_MATERIALS 36
 #endif
 
 #ifndef NUM_VOLUMES
@@ -80,6 +80,69 @@ texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 13);
 #endif
 #if NUM_MATERIALS > 14
 texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 14);
+#endif
+#if NUM_MATERIALS > 15
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 15);
+#endif
+#if NUM_MATERIALS > 16
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 16);
+#endif
+#if NUM_MATERIALS > 17
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 17);
+#endif
+#if NUM_MATERIALS > 18
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 18);
+#endif
+#if NUM_MATERIALS > 19
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 19);
+#endif
+#if NUM_MATERIALS > 20
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 20);
+#endif
+#if NUM_MATERIALS > 21
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 21);
+#endif
+#if NUM_MATERIALS > 22
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 22);
+#endif
+#if NUM_MATERIALS > 23
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 23);
+#endif
+#if NUM_MATERIALS > 24
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 24);
+#endif
+#if NUM_MATERIALS > 25
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 25);
+#endif
+#if NUM_MATERIALS > 26
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 26);
+#endif
+#if NUM_MATERIALS > 27
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 27);
+#endif
+#if NUM_MATERIALS > 28
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 28);
+#endif
+#if NUM_MATERIALS > 29
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 29);
+#endif
+#if NUM_MATERIALS > 30
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 30);
+#endif
+#if NUM_MATERIALS > 31
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 31);
+#endif
+#if NUM_MATERIALS > 32
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 32);
+#endif
+#if NUM_MATERIALS > 33
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 33);
+#endif
+#if NUM_MATERIALS > 34
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 34);
+#endif
+#if NUM_MATERIALS > 35
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 35);
 #endif
 
 #undef CURR_VOL_ID

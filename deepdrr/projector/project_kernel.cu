@@ -210,10 +210,640 @@
     LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
     LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
   } while (0)
+#elif NUM_MATERIALS == 16
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+  } while (0)
+#elif NUM_MATERIALS == 17
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 16);                                         \
+  } while (0)
+#elif NUM_MATERIALS == 18
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 16);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 17);                                         \
+  } while (0)
+#elif NUM_MATERIALS == 19
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 16);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 17);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 18);                                         \
+  } while (0)
+#elif NUM_MATERIALS == 20
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 16);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 17);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 18);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 19);                                         \
+  } while (0)
+#elif NUM_MATERIALS == 21
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 16);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 17);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 18);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 19);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 20);                                         \
+  } while (0)
+#elif NUM_MATERIALS == 22
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 16);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 17);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 18);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 19);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 20);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 21);                                         \
+  } while (0)
+#elif NUM_MATERIALS == 23
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 16);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 17);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 18);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 19);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 20);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 21);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 22);                                         \
+  } while (0)
+#elif NUM_MATERIALS == 24
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 16);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 17);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 18);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 19);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 20);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 21);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 22);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 23);                                         \
+  } while (0)
+#elif NUM_MATERIALS == 25
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 16);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 17);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 18);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 19);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 20);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 21);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 22);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 23);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 24);                                         \
+  } while (0)
+#elif NUM_MATERIALS == 26
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 16);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 17);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 18);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 19);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 20);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 21);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 22);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 23);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 24);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 25);                                         \
+  } while (0)
+#elif NUM_MATERIALS == 27
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 16);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 17);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 18);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 19);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 20);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 21);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 22);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 23);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 24);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 25);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 26);                                         \
+  } while (0)
+#elif NUM_MATERIALS == 28
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 16);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 17);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 18);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 19);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 20);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 21);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 22);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 23);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 24);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 25);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 26);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 27);                                         \
+  } while (0)
+#elif NUM_MATERIALS == 29
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 16);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 17);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 18);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 19);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 20);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 21);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 22);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 23);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 24);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 25);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 26);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 27);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 28);                                         \
+  } while (0)
+#elif NUM_MATERIALS == 30
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 16);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 17);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 18);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 19);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 20);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 21);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 22);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 23);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 24);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 25);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 26);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 27);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 28);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 29);                                         \
+  } while (0)
+#elif NUM_MATERIALS == 31
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 16);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 17);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 18);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 19);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 20);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 21);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 22);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 23);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 24);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 25);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 26);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 27);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 28);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 29);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 30);                                         \
+  } while (0)
+#elif NUM_MATERIALS == 32
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 16);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 17);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 18);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 19);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 20);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 21);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 22);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 23);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 24);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 25);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 26);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 27);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 28);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 29);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 30);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 31);                                         \
+  } while (0)
+#elif NUM_MATERIALS == 33
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 16);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 17);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 18);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 19);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 20);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 21);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 22);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 23);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 24);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 25);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 26);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 27);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 28);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 29);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 30);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 31);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 32);                                         \
+  } while (0)
+#elif NUM_MATERIALS == 34
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 16);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 17);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 18);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 19);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 20);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 21);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 22);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 23);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 24);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 25);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 26);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 27);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 28);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 29);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 30);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 31);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 32);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 33);                                         \
+  } while (0)
+#elif NUM_MATERIALS == 35
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 16);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 17);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 18);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 19);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 20);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 21);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 22);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 23);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 24);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 25);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 26);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 27);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 28);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 29);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 30);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 31);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 32);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 33);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 34);                                         \
+  } while (0)
+#elif NUM_MATERIALS == 36
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 15);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 16);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 17);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 18);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 19);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 20);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 21);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 22);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 23);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 24);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 25);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 26);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 27);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 28);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 29);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 30);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 31);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 32);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 33);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 34);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 35);                                         \
+  } while (0)
 #else
 #define LOAD_SEGS_FOR_VOL(vol_id)                                              \
   do {                                                                         \
-    printf("NUM_MATERIALS not in [1, 15]");                                    \
+    printf("NUM_MATERIALS not in [1, 36]");                                    \
   } while (0)
 #endif
 
@@ -1325,10 +1955,640 @@
     UPDATE(multiplier, vol_id, 13);                                            \
     UPDATE(multiplier, vol_id, 14);                                            \
   } while (0)
+#elif NUM_MATERIALS == 16
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+  } while (0)
+#elif NUM_MATERIALS == 17
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+    UPDATE(multiplier, vol_id, 16);                                            \
+  } while (0)
+#elif NUM_MATERIALS == 18
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+    UPDATE(multiplier, vol_id, 16);                                            \
+    UPDATE(multiplier, vol_id, 17);                                            \
+  } while (0)
+#elif NUM_MATERIALS == 19
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+    UPDATE(multiplier, vol_id, 16);                                            \
+    UPDATE(multiplier, vol_id, 17);                                            \
+    UPDATE(multiplier, vol_id, 18);                                            \
+  } while (0)
+#elif NUM_MATERIALS == 20
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+    UPDATE(multiplier, vol_id, 16);                                            \
+    UPDATE(multiplier, vol_id, 17);                                            \
+    UPDATE(multiplier, vol_id, 18);                                            \
+    UPDATE(multiplier, vol_id, 19);                                            \
+  } while (0)
+#elif NUM_MATERIALS == 21
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+    UPDATE(multiplier, vol_id, 16);                                            \
+    UPDATE(multiplier, vol_id, 17);                                            \
+    UPDATE(multiplier, vol_id, 18);                                            \
+    UPDATE(multiplier, vol_id, 19);                                            \
+    UPDATE(multiplier, vol_id, 20);                                            \
+  } while (0)
+#elif NUM_MATERIALS == 22
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+    UPDATE(multiplier, vol_id, 16);                                            \
+    UPDATE(multiplier, vol_id, 17);                                            \
+    UPDATE(multiplier, vol_id, 18);                                            \
+    UPDATE(multiplier, vol_id, 19);                                            \
+    UPDATE(multiplier, vol_id, 20);                                            \
+    UPDATE(multiplier, vol_id, 21);                                            \
+  } while (0)
+#elif NUM_MATERIALS == 23
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+    UPDATE(multiplier, vol_id, 16);                                            \
+    UPDATE(multiplier, vol_id, 17);                                            \
+    UPDATE(multiplier, vol_id, 18);                                            \
+    UPDATE(multiplier, vol_id, 19);                                            \
+    UPDATE(multiplier, vol_id, 20);                                            \
+    UPDATE(multiplier, vol_id, 21);                                            \
+    UPDATE(multiplier, vol_id, 22);                                            \
+  } while (0)
+#elif NUM_MATERIALS == 24
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+    UPDATE(multiplier, vol_id, 16);                                            \
+    UPDATE(multiplier, vol_id, 17);                                            \
+    UPDATE(multiplier, vol_id, 18);                                            \
+    UPDATE(multiplier, vol_id, 19);                                            \
+    UPDATE(multiplier, vol_id, 20);                                            \
+    UPDATE(multiplier, vol_id, 21);                                            \
+    UPDATE(multiplier, vol_id, 22);                                            \
+    UPDATE(multiplier, vol_id, 23);                                            \
+  } while (0)
+#elif NUM_MATERIALS == 25
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+    UPDATE(multiplier, vol_id, 16);                                            \
+    UPDATE(multiplier, vol_id, 17);                                            \
+    UPDATE(multiplier, vol_id, 18);                                            \
+    UPDATE(multiplier, vol_id, 19);                                            \
+    UPDATE(multiplier, vol_id, 20);                                            \
+    UPDATE(multiplier, vol_id, 21);                                            \
+    UPDATE(multiplier, vol_id, 22);                                            \
+    UPDATE(multiplier, vol_id, 23);                                            \
+    UPDATE(multiplier, vol_id, 24);                                            \
+  } while (0)
+#elif NUM_MATERIALS == 26
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+    UPDATE(multiplier, vol_id, 16);                                            \
+    UPDATE(multiplier, vol_id, 17);                                            \
+    UPDATE(multiplier, vol_id, 18);                                            \
+    UPDATE(multiplier, vol_id, 19);                                            \
+    UPDATE(multiplier, vol_id, 20);                                            \
+    UPDATE(multiplier, vol_id, 21);                                            \
+    UPDATE(multiplier, vol_id, 22);                                            \
+    UPDATE(multiplier, vol_id, 23);                                            \
+    UPDATE(multiplier, vol_id, 24);                                            \
+    UPDATE(multiplier, vol_id, 25);                                            \
+  } while (0)
+#elif NUM_MATERIALS == 27
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+    UPDATE(multiplier, vol_id, 16);                                            \
+    UPDATE(multiplier, vol_id, 17);                                            \
+    UPDATE(multiplier, vol_id, 18);                                            \
+    UPDATE(multiplier, vol_id, 19);                                            \
+    UPDATE(multiplier, vol_id, 20);                                            \
+    UPDATE(multiplier, vol_id, 21);                                            \
+    UPDATE(multiplier, vol_id, 22);                                            \
+    UPDATE(multiplier, vol_id, 23);                                            \
+    UPDATE(multiplier, vol_id, 24);                                            \
+    UPDATE(multiplier, vol_id, 25);                                            \
+    UPDATE(multiplier, vol_id, 26);                                            \
+  } while (0)
+#elif NUM_MATERIALS == 28
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+    UPDATE(multiplier, vol_id, 16);                                            \
+    UPDATE(multiplier, vol_id, 17);                                            \
+    UPDATE(multiplier, vol_id, 18);                                            \
+    UPDATE(multiplier, vol_id, 19);                                            \
+    UPDATE(multiplier, vol_id, 20);                                            \
+    UPDATE(multiplier, vol_id, 21);                                            \
+    UPDATE(multiplier, vol_id, 22);                                            \
+    UPDATE(multiplier, vol_id, 23);                                            \
+    UPDATE(multiplier, vol_id, 24);                                            \
+    UPDATE(multiplier, vol_id, 25);                                            \
+    UPDATE(multiplier, vol_id, 26);                                            \
+    UPDATE(multiplier, vol_id, 27);                                            \
+  } while (0)
+#elif NUM_MATERIALS == 29
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+    UPDATE(multiplier, vol_id, 16);                                            \
+    UPDATE(multiplier, vol_id, 17);                                            \
+    UPDATE(multiplier, vol_id, 18);                                            \
+    UPDATE(multiplier, vol_id, 19);                                            \
+    UPDATE(multiplier, vol_id, 20);                                            \
+    UPDATE(multiplier, vol_id, 21);                                            \
+    UPDATE(multiplier, vol_id, 22);                                            \
+    UPDATE(multiplier, vol_id, 23);                                            \
+    UPDATE(multiplier, vol_id, 24);                                            \
+    UPDATE(multiplier, vol_id, 25);                                            \
+    UPDATE(multiplier, vol_id, 26);                                            \
+    UPDATE(multiplier, vol_id, 27);                                            \
+    UPDATE(multiplier, vol_id, 28);                                            \
+  } while (0)
+#elif NUM_MATERIALS == 30
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+    UPDATE(multiplier, vol_id, 16);                                            \
+    UPDATE(multiplier, vol_id, 17);                                            \
+    UPDATE(multiplier, vol_id, 18);                                            \
+    UPDATE(multiplier, vol_id, 19);                                            \
+    UPDATE(multiplier, vol_id, 20);                                            \
+    UPDATE(multiplier, vol_id, 21);                                            \
+    UPDATE(multiplier, vol_id, 22);                                            \
+    UPDATE(multiplier, vol_id, 23);                                            \
+    UPDATE(multiplier, vol_id, 24);                                            \
+    UPDATE(multiplier, vol_id, 25);                                            \
+    UPDATE(multiplier, vol_id, 26);                                            \
+    UPDATE(multiplier, vol_id, 27);                                            \
+    UPDATE(multiplier, vol_id, 28);                                            \
+    UPDATE(multiplier, vol_id, 29);                                            \
+  } while (0)
+#elif NUM_MATERIALS == 31
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+    UPDATE(multiplier, vol_id, 16);                                            \
+    UPDATE(multiplier, vol_id, 17);                                            \
+    UPDATE(multiplier, vol_id, 18);                                            \
+    UPDATE(multiplier, vol_id, 19);                                            \
+    UPDATE(multiplier, vol_id, 20);                                            \
+    UPDATE(multiplier, vol_id, 21);                                            \
+    UPDATE(multiplier, vol_id, 22);                                            \
+    UPDATE(multiplier, vol_id, 23);                                            \
+    UPDATE(multiplier, vol_id, 24);                                            \
+    UPDATE(multiplier, vol_id, 25);                                            \
+    UPDATE(multiplier, vol_id, 26);                                            \
+    UPDATE(multiplier, vol_id, 27);                                            \
+    UPDATE(multiplier, vol_id, 28);                                            \
+    UPDATE(multiplier, vol_id, 29);                                            \
+    UPDATE(multiplier, vol_id, 30);                                            \
+  } while (0)
+#elif NUM_MATERIALS == 32
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+    UPDATE(multiplier, vol_id, 16);                                            \
+    UPDATE(multiplier, vol_id, 17);                                            \
+    UPDATE(multiplier, vol_id, 18);                                            \
+    UPDATE(multiplier, vol_id, 19);                                            \
+    UPDATE(multiplier, vol_id, 20);                                            \
+    UPDATE(multiplier, vol_id, 21);                                            \
+    UPDATE(multiplier, vol_id, 22);                                            \
+    UPDATE(multiplier, vol_id, 23);                                            \
+    UPDATE(multiplier, vol_id, 24);                                            \
+    UPDATE(multiplier, vol_id, 25);                                            \
+    UPDATE(multiplier, vol_id, 26);                                            \
+    UPDATE(multiplier, vol_id, 27);                                            \
+    UPDATE(multiplier, vol_id, 28);                                            \
+    UPDATE(multiplier, vol_id, 29);                                            \
+    UPDATE(multiplier, vol_id, 30);                                            \
+    UPDATE(multiplier, vol_id, 31);                                            \
+  } while (0)
+#elif NUM_MATERIALS == 33
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+    UPDATE(multiplier, vol_id, 16);                                            \
+    UPDATE(multiplier, vol_id, 17);                                            \
+    UPDATE(multiplier, vol_id, 18);                                            \
+    UPDATE(multiplier, vol_id, 19);                                            \
+    UPDATE(multiplier, vol_id, 20);                                            \
+    UPDATE(multiplier, vol_id, 21);                                            \
+    UPDATE(multiplier, vol_id, 22);                                            \
+    UPDATE(multiplier, vol_id, 23);                                            \
+    UPDATE(multiplier, vol_id, 24);                                            \
+    UPDATE(multiplier, vol_id, 25);                                            \
+    UPDATE(multiplier, vol_id, 26);                                            \
+    UPDATE(multiplier, vol_id, 27);                                            \
+    UPDATE(multiplier, vol_id, 28);                                            \
+    UPDATE(multiplier, vol_id, 29);                                            \
+    UPDATE(multiplier, vol_id, 30);                                            \
+    UPDATE(multiplier, vol_id, 31);                                            \
+    UPDATE(multiplier, vol_id, 32);                                            \
+  } while (0)
+#elif NUM_MATERIALS == 34
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+    UPDATE(multiplier, vol_id, 16);                                            \
+    UPDATE(multiplier, vol_id, 17);                                            \
+    UPDATE(multiplier, vol_id, 18);                                            \
+    UPDATE(multiplier, vol_id, 19);                                            \
+    UPDATE(multiplier, vol_id, 20);                                            \
+    UPDATE(multiplier, vol_id, 21);                                            \
+    UPDATE(multiplier, vol_id, 22);                                            \
+    UPDATE(multiplier, vol_id, 23);                                            \
+    UPDATE(multiplier, vol_id, 24);                                            \
+    UPDATE(multiplier, vol_id, 25);                                            \
+    UPDATE(multiplier, vol_id, 26);                                            \
+    UPDATE(multiplier, vol_id, 27);                                            \
+    UPDATE(multiplier, vol_id, 28);                                            \
+    UPDATE(multiplier, vol_id, 29);                                            \
+    UPDATE(multiplier, vol_id, 30);                                            \
+    UPDATE(multiplier, vol_id, 31);                                            \
+    UPDATE(multiplier, vol_id, 32);                                            \
+    UPDATE(multiplier, vol_id, 33);                                            \
+  } while (0)
+#elif NUM_MATERIALS == 35
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+    UPDATE(multiplier, vol_id, 16);                                            \
+    UPDATE(multiplier, vol_id, 17);                                            \
+    UPDATE(multiplier, vol_id, 18);                                            \
+    UPDATE(multiplier, vol_id, 19);                                            \
+    UPDATE(multiplier, vol_id, 20);                                            \
+    UPDATE(multiplier, vol_id, 21);                                            \
+    UPDATE(multiplier, vol_id, 22);                                            \
+    UPDATE(multiplier, vol_id, 23);                                            \
+    UPDATE(multiplier, vol_id, 24);                                            \
+    UPDATE(multiplier, vol_id, 25);                                            \
+    UPDATE(multiplier, vol_id, 26);                                            \
+    UPDATE(multiplier, vol_id, 27);                                            \
+    UPDATE(multiplier, vol_id, 28);                                            \
+    UPDATE(multiplier, vol_id, 29);                                            \
+    UPDATE(multiplier, vol_id, 30);                                            \
+    UPDATE(multiplier, vol_id, 31);                                            \
+    UPDATE(multiplier, vol_id, 32);                                            \
+    UPDATE(multiplier, vol_id, 33);                                            \
+    UPDATE(multiplier, vol_id, 34);                                            \
+  } while (0)
+#elif NUM_MATERIALS == 36
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+    UPDATE(multiplier, vol_id, 15);                                            \
+    UPDATE(multiplier, vol_id, 16);                                            \
+    UPDATE(multiplier, vol_id, 17);                                            \
+    UPDATE(multiplier, vol_id, 18);                                            \
+    UPDATE(multiplier, vol_id, 19);                                            \
+    UPDATE(multiplier, vol_id, 20);                                            \
+    UPDATE(multiplier, vol_id, 21);                                            \
+    UPDATE(multiplier, vol_id, 22);                                            \
+    UPDATE(multiplier, vol_id, 23);                                            \
+    UPDATE(multiplier, vol_id, 24);                                            \
+    UPDATE(multiplier, vol_id, 25);                                            \
+    UPDATE(multiplier, vol_id, 26);                                            \
+    UPDATE(multiplier, vol_id, 27);                                            \
+    UPDATE(multiplier, vol_id, 28);                                            \
+    UPDATE(multiplier, vol_id, 29);                                            \
+    UPDATE(multiplier, vol_id, 30);                                            \
+    UPDATE(multiplier, vol_id, 31);                                            \
+    UPDATE(multiplier, vol_id, 32);                                            \
+    UPDATE(multiplier, vol_id, 33);                                            \
+    UPDATE(multiplier, vol_id, 34);                                            \
+    UPDATE(multiplier, vol_id, 35);                                            \
+  } while (0)
 #else
 #define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
   do {                                                                         \
-    printf("NUM_MATERIALS not in [1, 15]");                                    \
+    printf("NUM_MATERIALS not in [1, 36]");                                    \
   } while (0)
 #endif
 
@@ -2737,10 +3997,661 @@ __global__ void projectKernel(
     mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
     mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
   } while (0)
+#elif NUM_MATERIALS == 16
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+  } while (0)
+#elif NUM_MATERIALS == 17
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][16] = cubicTex3D(SEG(vol_id, 16), inp_x, inp_y, inp_z); \
+  } while (0)
+#elif NUM_MATERIALS == 18
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][16] = cubicTex3D(SEG(vol_id, 16), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][17] = cubicTex3D(SEG(vol_id, 17), inp_x, inp_y, inp_z); \
+  } while (0)
+#elif NUM_MATERIALS == 19
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][16] = cubicTex3D(SEG(vol_id, 16), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][17] = cubicTex3D(SEG(vol_id, 17), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][18] = cubicTex3D(SEG(vol_id, 18), inp_x, inp_y, inp_z); \
+  } while (0)
+#elif NUM_MATERIALS == 20
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][16] = cubicTex3D(SEG(vol_id, 16), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][17] = cubicTex3D(SEG(vol_id, 17), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][18] = cubicTex3D(SEG(vol_id, 18), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][19] = cubicTex3D(SEG(vol_id, 19), inp_x, inp_y, inp_z); \
+  } while (0)
+#elif NUM_MATERIALS == 21
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][16] = cubicTex3D(SEG(vol_id, 16), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][17] = cubicTex3D(SEG(vol_id, 17), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][18] = cubicTex3D(SEG(vol_id, 18), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][19] = cubicTex3D(SEG(vol_id, 19), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][20] = cubicTex3D(SEG(vol_id, 20), inp_x, inp_y, inp_z); \
+  } while (0)
+#elif NUM_MATERIALS == 22
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][16] = cubicTex3D(SEG(vol_id, 16), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][17] = cubicTex3D(SEG(vol_id, 17), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][18] = cubicTex3D(SEG(vol_id, 18), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][19] = cubicTex3D(SEG(vol_id, 19), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][20] = cubicTex3D(SEG(vol_id, 20), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][21] = cubicTex3D(SEG(vol_id, 21), inp_x, inp_y, inp_z); \
+  } while (0)
+#elif NUM_MATERIALS == 23
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][16] = cubicTex3D(SEG(vol_id, 16), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][17] = cubicTex3D(SEG(vol_id, 17), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][18] = cubicTex3D(SEG(vol_id, 18), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][19] = cubicTex3D(SEG(vol_id, 19), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][20] = cubicTex3D(SEG(vol_id, 20), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][21] = cubicTex3D(SEG(vol_id, 21), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][22] = cubicTex3D(SEG(vol_id, 22), inp_x, inp_y, inp_z); \
+  } while (0)
+#elif NUM_MATERIALS == 24
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][16] = cubicTex3D(SEG(vol_id, 16), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][17] = cubicTex3D(SEG(vol_id, 17), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][18] = cubicTex3D(SEG(vol_id, 18), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][19] = cubicTex3D(SEG(vol_id, 19), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][20] = cubicTex3D(SEG(vol_id, 20), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][21] = cubicTex3D(SEG(vol_id, 21), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][22] = cubicTex3D(SEG(vol_id, 22), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][23] = cubicTex3D(SEG(vol_id, 23), inp_x, inp_y, inp_z); \
+  } while (0)
+#elif NUM_MATERIALS == 25
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][16] = cubicTex3D(SEG(vol_id, 16), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][17] = cubicTex3D(SEG(vol_id, 17), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][18] = cubicTex3D(SEG(vol_id, 18), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][19] = cubicTex3D(SEG(vol_id, 19), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][20] = cubicTex3D(SEG(vol_id, 20), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][21] = cubicTex3D(SEG(vol_id, 21), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][22] = cubicTex3D(SEG(vol_id, 22), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][23] = cubicTex3D(SEG(vol_id, 23), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][24] = cubicTex3D(SEG(vol_id, 24), inp_x, inp_y, inp_z); \
+  } while (0)
+#elif NUM_MATERIALS == 26
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][16] = cubicTex3D(SEG(vol_id, 16), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][17] = cubicTex3D(SEG(vol_id, 17), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][18] = cubicTex3D(SEG(vol_id, 18), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][19] = cubicTex3D(SEG(vol_id, 19), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][20] = cubicTex3D(SEG(vol_id, 20), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][21] = cubicTex3D(SEG(vol_id, 21), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][22] = cubicTex3D(SEG(vol_id, 22), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][23] = cubicTex3D(SEG(vol_id, 23), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][24] = cubicTex3D(SEG(vol_id, 24), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][25] = cubicTex3D(SEG(vol_id, 25), inp_x, inp_y, inp_z); \
+  } while (0)
+#elif NUM_MATERIALS == 27
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][16] = cubicTex3D(SEG(vol_id, 16), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][17] = cubicTex3D(SEG(vol_id, 17), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][18] = cubicTex3D(SEG(vol_id, 18), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][19] = cubicTex3D(SEG(vol_id, 19), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][20] = cubicTex3D(SEG(vol_id, 20), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][21] = cubicTex3D(SEG(vol_id, 21), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][22] = cubicTex3D(SEG(vol_id, 22), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][23] = cubicTex3D(SEG(vol_id, 23), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][24] = cubicTex3D(SEG(vol_id, 24), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][25] = cubicTex3D(SEG(vol_id, 25), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][26] = cubicTex3D(SEG(vol_id, 26), inp_x, inp_y, inp_z); \
+  } while (0)
+#elif NUM_MATERIALS == 28
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][16] = cubicTex3D(SEG(vol_id, 16), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][17] = cubicTex3D(SEG(vol_id, 17), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][18] = cubicTex3D(SEG(vol_id, 18), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][19] = cubicTex3D(SEG(vol_id, 19), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][20] = cubicTex3D(SEG(vol_id, 20), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][21] = cubicTex3D(SEG(vol_id, 21), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][22] = cubicTex3D(SEG(vol_id, 22), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][23] = cubicTex3D(SEG(vol_id, 23), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][24] = cubicTex3D(SEG(vol_id, 24), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][25] = cubicTex3D(SEG(vol_id, 25), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][26] = cubicTex3D(SEG(vol_id, 26), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][27] = cubicTex3D(SEG(vol_id, 27), inp_x, inp_y, inp_z); \
+  } while (0)
+#elif NUM_MATERIALS == 29
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][16] = cubicTex3D(SEG(vol_id, 16), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][17] = cubicTex3D(SEG(vol_id, 17), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][18] = cubicTex3D(SEG(vol_id, 18), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][19] = cubicTex3D(SEG(vol_id, 19), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][20] = cubicTex3D(SEG(vol_id, 20), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][21] = cubicTex3D(SEG(vol_id, 21), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][22] = cubicTex3D(SEG(vol_id, 22), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][23] = cubicTex3D(SEG(vol_id, 23), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][24] = cubicTex3D(SEG(vol_id, 24), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][25] = cubicTex3D(SEG(vol_id, 25), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][26] = cubicTex3D(SEG(vol_id, 26), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][27] = cubicTex3D(SEG(vol_id, 27), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][28] = cubicTex3D(SEG(vol_id, 28), inp_x, inp_y, inp_z); \
+  } while (0)
+#elif NUM_MATERIALS == 30
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][16] = cubicTex3D(SEG(vol_id, 16), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][17] = cubicTex3D(SEG(vol_id, 17), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][18] = cubicTex3D(SEG(vol_id, 18), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][19] = cubicTex3D(SEG(vol_id, 19), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][20] = cubicTex3D(SEG(vol_id, 20), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][21] = cubicTex3D(SEG(vol_id, 21), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][22] = cubicTex3D(SEG(vol_id, 22), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][23] = cubicTex3D(SEG(vol_id, 23), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][24] = cubicTex3D(SEG(vol_id, 24), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][25] = cubicTex3D(SEG(vol_id, 25), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][26] = cubicTex3D(SEG(vol_id, 26), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][27] = cubicTex3D(SEG(vol_id, 27), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][28] = cubicTex3D(SEG(vol_id, 28), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][29] = cubicTex3D(SEG(vol_id, 29), inp_x, inp_y, inp_z); \
+  } while (0)
+#elif NUM_MATERIALS == 31
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][16] = cubicTex3D(SEG(vol_id, 16), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][17] = cubicTex3D(SEG(vol_id, 17), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][18] = cubicTex3D(SEG(vol_id, 18), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][19] = cubicTex3D(SEG(vol_id, 19), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][20] = cubicTex3D(SEG(vol_id, 20), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][21] = cubicTex3D(SEG(vol_id, 21), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][22] = cubicTex3D(SEG(vol_id, 22), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][23] = cubicTex3D(SEG(vol_id, 23), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][24] = cubicTex3D(SEG(vol_id, 24), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][25] = cubicTex3D(SEG(vol_id, 25), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][26] = cubicTex3D(SEG(vol_id, 26), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][27] = cubicTex3D(SEG(vol_id, 27), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][28] = cubicTex3D(SEG(vol_id, 28), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][29] = cubicTex3D(SEG(vol_id, 29), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][30] = cubicTex3D(SEG(vol_id, 30), inp_x, inp_y, inp_z); \
+  } while (0)
+#elif NUM_MATERIALS == 32
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][16] = cubicTex3D(SEG(vol_id, 16), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][17] = cubicTex3D(SEG(vol_id, 17), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][18] = cubicTex3D(SEG(vol_id, 18), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][19] = cubicTex3D(SEG(vol_id, 19), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][20] = cubicTex3D(SEG(vol_id, 20), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][21] = cubicTex3D(SEG(vol_id, 21), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][22] = cubicTex3D(SEG(vol_id, 22), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][23] = cubicTex3D(SEG(vol_id, 23), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][24] = cubicTex3D(SEG(vol_id, 24), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][25] = cubicTex3D(SEG(vol_id, 25), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][26] = cubicTex3D(SEG(vol_id, 26), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][27] = cubicTex3D(SEG(vol_id, 27), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][28] = cubicTex3D(SEG(vol_id, 28), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][29] = cubicTex3D(SEG(vol_id, 29), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][30] = cubicTex3D(SEG(vol_id, 30), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][31] = cubicTex3D(SEG(vol_id, 31), inp_x, inp_y, inp_z); \
+  } while (0)
+#elif NUM_MATERIALS == 33
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][16] = cubicTex3D(SEG(vol_id, 16), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][17] = cubicTex3D(SEG(vol_id, 17), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][18] = cubicTex3D(SEG(vol_id, 18), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][19] = cubicTex3D(SEG(vol_id, 19), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][20] = cubicTex3D(SEG(vol_id, 20), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][21] = cubicTex3D(SEG(vol_id, 21), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][22] = cubicTex3D(SEG(vol_id, 22), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][23] = cubicTex3D(SEG(vol_id, 23), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][24] = cubicTex3D(SEG(vol_id, 24), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][25] = cubicTex3D(SEG(vol_id, 25), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][26] = cubicTex3D(SEG(vol_id, 26), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][27] = cubicTex3D(SEG(vol_id, 27), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][28] = cubicTex3D(SEG(vol_id, 28), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][29] = cubicTex3D(SEG(vol_id, 29), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][30] = cubicTex3D(SEG(vol_id, 30), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][31] = cubicTex3D(SEG(vol_id, 31), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][32] = cubicTex3D(SEG(vol_id, 32), inp_x, inp_y, inp_z); \
+  } while (0)
+#elif NUM_MATERIALS == 34
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][16] = cubicTex3D(SEG(vol_id, 16), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][17] = cubicTex3D(SEG(vol_id, 17), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][18] = cubicTex3D(SEG(vol_id, 18), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][19] = cubicTex3D(SEG(vol_id, 19), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][20] = cubicTex3D(SEG(vol_id, 20), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][21] = cubicTex3D(SEG(vol_id, 21), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][22] = cubicTex3D(SEG(vol_id, 22), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][23] = cubicTex3D(SEG(vol_id, 23), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][24] = cubicTex3D(SEG(vol_id, 24), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][25] = cubicTex3D(SEG(vol_id, 25), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][26] = cubicTex3D(SEG(vol_id, 26), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][27] = cubicTex3D(SEG(vol_id, 27), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][28] = cubicTex3D(SEG(vol_id, 28), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][29] = cubicTex3D(SEG(vol_id, 29), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][30] = cubicTex3D(SEG(vol_id, 30), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][31] = cubicTex3D(SEG(vol_id, 31), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][32] = cubicTex3D(SEG(vol_id, 32), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][33] = cubicTex3D(SEG(vol_id, 33), inp_x, inp_y, inp_z); \
+  } while (0)
+#elif NUM_MATERIALS == 35
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][16] = cubicTex3D(SEG(vol_id, 16), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][17] = cubicTex3D(SEG(vol_id, 17), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][18] = cubicTex3D(SEG(vol_id, 18), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][19] = cubicTex3D(SEG(vol_id, 19), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][20] = cubicTex3D(SEG(vol_id, 20), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][21] = cubicTex3D(SEG(vol_id, 21), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][22] = cubicTex3D(SEG(vol_id, 22), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][23] = cubicTex3D(SEG(vol_id, 23), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][24] = cubicTex3D(SEG(vol_id, 24), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][25] = cubicTex3D(SEG(vol_id, 25), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][26] = cubicTex3D(SEG(vol_id, 26), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][27] = cubicTex3D(SEG(vol_id, 27), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][28] = cubicTex3D(SEG(vol_id, 28), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][29] = cubicTex3D(SEG(vol_id, 29), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][30] = cubicTex3D(SEG(vol_id, 30), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][31] = cubicTex3D(SEG(vol_id, 31), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][32] = cubicTex3D(SEG(vol_id, 32), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][33] = cubicTex3D(SEG(vol_id, 33), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][34] = cubicTex3D(SEG(vol_id, 34), inp_x, inp_y, inp_z); \
+  } while (0)
+#elif NUM_MATERIALS == 36
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][15] = cubicTex3D(SEG(vol_id, 15), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][16] = cubicTex3D(SEG(vol_id, 16), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][17] = cubicTex3D(SEG(vol_id, 17), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][18] = cubicTex3D(SEG(vol_id, 18), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][19] = cubicTex3D(SEG(vol_id, 19), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][20] = cubicTex3D(SEG(vol_id, 20), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][21] = cubicTex3D(SEG(vol_id, 21), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][22] = cubicTex3D(SEG(vol_id, 22), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][23] = cubicTex3D(SEG(vol_id, 23), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][24] = cubicTex3D(SEG(vol_id, 24), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][25] = cubicTex3D(SEG(vol_id, 25), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][26] = cubicTex3D(SEG(vol_id, 26), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][27] = cubicTex3D(SEG(vol_id, 27), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][28] = cubicTex3D(SEG(vol_id, 28), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][29] = cubicTex3D(SEG(vol_id, 29), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][30] = cubicTex3D(SEG(vol_id, 30), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][31] = cubicTex3D(SEG(vol_id, 31), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][32] = cubicTex3D(SEG(vol_id, 32), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][33] = cubicTex3D(SEG(vol_id, 33), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][34] = cubicTex3D(SEG(vol_id, 34), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][35] = cubicTex3D(SEG(vol_id, 35), inp_x, inp_y, inp_z); \
+  } while (0)
 #else
 #define RESAMPLE_TEXTURES(vol_id)                                              \
   do {                                                                         \
-    printf("NUM_MATERIALS not in [1, 15]");                                    \
+    printf("NUM_MATERIALS not in [1, 36]");                                    \
   } while (0)
 #endif
 
