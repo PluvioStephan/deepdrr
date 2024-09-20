@@ -191,10 +191,29 @@
     LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
     LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
   } while (0)
+#elif NUM_MATERIALS == 15
+#define LOAD_SEGS_FOR_VOL(vol_id)                                              \
+  do {                                                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 0);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 1);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 2);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 3);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 4);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 5);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 6);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 7);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 8);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 9);                                          \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 10);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 11);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 12);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 13);                                         \
+    LOAG_SEGS_FOR_VOL_MAT(vol_id, 14);                                         \
+  } while (0)
 #else
 #define LOAD_SEGS_FOR_VOL(vol_id)                                              \
   do {                                                                         \
-    printf("NUM_MATERIALS not in [1, 14]");                                    \
+    printf("NUM_MATERIALS not in [1, 15]");                                    \
   } while (0)
 #endif
 
@@ -1287,10 +1306,29 @@
     UPDATE(multiplier, vol_id, 12);                                            \
     UPDATE(multiplier, vol_id, 13);                                            \
   } while (0)
+#elif NUM_MATERIALS == 15
+#define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
+  do {                                                                         \
+    UPDATE(multiplier, vol_id, 0);                                             \
+    UPDATE(multiplier, vol_id, 1);                                             \
+    UPDATE(multiplier, vol_id, 2);                                             \
+    UPDATE(multiplier, vol_id, 3);                                             \
+    UPDATE(multiplier, vol_id, 4);                                             \
+    UPDATE(multiplier, vol_id, 5);                                             \
+    UPDATE(multiplier, vol_id, 6);                                             \
+    UPDATE(multiplier, vol_id, 7);                                             \
+    UPDATE(multiplier, vol_id, 8);                                             \
+    UPDATE(multiplier, vol_id, 9);                                             \
+    UPDATE(multiplier, vol_id, 10);                                            \
+    UPDATE(multiplier, vol_id, 11);                                            \
+    UPDATE(multiplier, vol_id, 12);                                            \
+    UPDATE(multiplier, vol_id, 13);                                            \
+    UPDATE(multiplier, vol_id, 14);                                            \
+  } while (0)
 #else
 #define INTERPOLATE_FOR_VOL(multiplier, vol_id)                                \
   do {                                                                         \
-    printf("NUM_MATERIALS not in [1, 14]");                                    \
+    printf("NUM_MATERIALS not in [1, 15]");                                    \
   } while (0)
 #endif
 
@@ -2679,10 +2717,30 @@ __global__ void projectKernel(
     mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
     mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
   } while (0)
+#elif NUM_MATERIALS == 15
+#define RESAMPLE_TEXTURES(vol_id)                                              \
+  do {                                                                         \
+    density_sample[vol_id] = tex3D(VOLUME(vol_id), inp_x, inp_y, inp_z);       \
+    mat_sample[vol_id][0] = cubicTex3D(SEG(vol_id, 0), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][1] = cubicTex3D(SEG(vol_id, 1), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][2] = cubicTex3D(SEG(vol_id, 2), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][3] = cubicTex3D(SEG(vol_id, 3), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][4] = cubicTex3D(SEG(vol_id, 4), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][5] = cubicTex3D(SEG(vol_id, 5), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][6] = cubicTex3D(SEG(vol_id, 6), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][7] = cubicTex3D(SEG(vol_id, 7), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][8] = cubicTex3D(SEG(vol_id, 8), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][9] = cubicTex3D(SEG(vol_id, 9), inp_x, inp_y, inp_z);   \
+    mat_sample[vol_id][10] = cubicTex3D(SEG(vol_id, 10), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][11] = cubicTex3D(SEG(vol_id, 11), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][12] = cubicTex3D(SEG(vol_id, 12), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][13] = cubicTex3D(SEG(vol_id, 13), inp_x, inp_y, inp_z); \
+    mat_sample[vol_id][14] = cubicTex3D(SEG(vol_id, 14), inp_x, inp_y, inp_z); \
+  } while (0)
 #else
 #define RESAMPLE_TEXTURES(vol_id)                                              \
   do {                                                                         \
-    printf("NUM_MATERIALS not in [1, 14]");                                    \
+    printf("NUM_MATERIALS not in [1, 15]");                                    \
   } while (0)
 #endif
 

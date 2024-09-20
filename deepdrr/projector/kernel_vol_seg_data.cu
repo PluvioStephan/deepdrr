@@ -10,7 +10,7 @@
 #define VOLUME(vol_id) VOL_PASTER(vol_id)
 
 #ifndef NUM_MATERIALS
-#define NUM_MATERIALS 14
+#define NUM_MATERIALS 15
 #endif
 
 #ifndef NUM_VOLUMES
@@ -77,6 +77,9 @@ texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 12);
 #endif
 #if NUM_MATERIALS > 13
 texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 13);
+#endif
+#if NUM_MATERIALS > 14
+texture<float, 3, cudaReadModeElementType> SEG(CURR_VOL_ID, 14);
 #endif
 
 #undef CURR_VOL_ID
