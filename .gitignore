@@ -10,3 +10,6 @@ docs/build
 **flycheck*.py
 /.DS_Store
 output
+/deepdrr/projector/.vs
+deepdrr/projector/original_project_kernel.cu
+deepdrr/projector/original_kernel_vol_seg_data.cu
