@@ -60,6 +60,7 @@ def show(
     os.environ["MESA_GL_VERSION_OVERRIDE"] = "3.2"
     os.environ["MESA_GLSL_VERSION_OVERRIDE"] = "150"
 
+    os.environ["DISPLAY"] = ':0'
     log.debug("display: {}".format(os.environ["DISPLAY"]))
     if offscreen and os.environ.get("DISPLAY") != ":99":
         os.environ["DISPLAY"] = ":99"
