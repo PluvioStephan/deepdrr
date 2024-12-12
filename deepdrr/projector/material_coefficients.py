@@ -2578,7 +2578,7 @@ hip_sims = np.array([
     [2.000E+01, 1.938E-02]
 ])
 
-spinal_coord = np.array([
+spinal_cord = np.array([
     [1.000E-03, 3.697E+03],
     [1.035E-03, 3.369E+03],
     [1.072E-03, 3.070E+03],
@@ -3339,7 +3339,7 @@ sims_material_coefficients = {
     "scapula clavicula": scapula_clavicula_sims,
     "femur": femur_sims,
     "hip": hip_sims,
-    "spinal coord": spinal_coord,
+    "spinal cord": spinal_cord,
     "ribs": ribs_sims,
     "sternum": sternum_sims,
     "coastal cartilages": coastal_cartilages_sims,
