@@ -2815,7 +2815,7 @@ sternum_sims = np.array([
     [2.000E+01, 1.860E-02]
 ])
 
-coastal_cartilages_sims = np.array([
+costal_cartilages_sims = np.array([
     [1.000E-03, 3.783E+03],
     [1.035E-03, 3.448E+03],
     [1.072E-03, 3.143E+03],
@@ -3269,7 +3269,7 @@ aluminium_equivalence_table = np.array([
 ])
 
 
-material_coefficients = {
+d_material_coefficients = {
     "bone": bone, 
     "soft tissue": softTissue, 
     "air": air, 
@@ -3313,7 +3313,7 @@ vmi_material_coefficients = {
     "spleen": spleen_vmi
 }
 
-sims_material_coefficients = {
+material_coefficients = {
     "bone": bone_sims,
     "soft tissue": soft_tissue_sims,
     "air": air_sims,
@@ -3342,10 +3342,10 @@ sims_material_coefficients = {
     "spinal cord": spinal_cord,
     "ribs": ribs_sims,
     "sternum": sternum_sims,
-    "coastal cartilages": coastal_cartilages_sims,
+    "costal cartilages": costal_cartilages_sims,
     "skin": skin_sims,
-    "adipose 1": adipose_1_sims,
-    "adipose 2": adipose_2_sims,
-    "adipose 3": adipose_3_sims,
+    "adipose tissue 1": adipose_1_sims,
+    "adipose tissue 2": adipose_2_sims,
+    "adipose tissue 3": adipose_3_sims,
     "table": aluminium_equivalence_table
 }
