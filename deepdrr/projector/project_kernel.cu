@@ -24,8 +24,9 @@
 
 #define LOAG_SEGS_FOR_VOL_MAT(vol_id, mat_id)                                  \
   do {                                                                         \
-    seg_at_alpha[vol_id][mat_id] = round(                                      \
-        cubicTex3D(SEG(vol_id, mat_id), px[vol_id], py[vol_id], pz[vol_id]));  \
+    seg_at_alpha[vol_id][mat_id] = (cubicTex3D(SEG(vol_id, mat_id),            \
+                                    px[vol_id],                                \
+                                    py[vol_id], pz[vol_id]));                  \
   } while (0)
 
 // TODO: rather than having num vols lines for each macro, define the macro once
