@@ -58,23 +58,23 @@ class MobileCArm(Device):
         degrees: bool = True,
         horizontal_movement: float = 200,  # width of window in X and Y planes.
         vertical_travel: float = 430,  # width of window in Z plane.
-        min_alpha: float = -40,
-        max_alpha: float = 110,
+        min_alpha: float = 0,
+        max_alpha: float = 360,
         # note that this would collide with the patient. Suggested to limit to +/- 45
         min_beta: float = -225,
         max_beta: float = 225,
-        source_to_detector_distance: float = 3639,  # 1020,
+        source_to_detector_distance: float = 1876,  # Vero, 1020 default, 3639 ExacTrac Dynamic
         # vertical component of the source point offset from the isocenter of rotation, in -Z. Previously called `isocenter_distance`
-        source_to_isocenter_vertical_distance: float = 2209.86,  # 530,
+        source_to_isocenter_vertical_distance: float = 1000,  # Vero, 530 default, 2209.86 ExacTrac Dynamic
         # horizontal offset of the principle ray from the isocenter of rotation, in +Y. Defaults to 9, but should be 200 in document.
         source_to_isocenter_horizontal_offset: float = 0,
         # horizontal distance from principle ray to inner C-arm circumference. Used for visualization
         immersion_depth: float = 730,
         # distance from central ray to edge of arm. Used for visualization
         free_space: float = 820,
-        sensor_height: int = 1536,  # Binned: 768, else 1536
-        sensor_width: int = 1536,  # Binned: 768, else 1536
-        pixel_size: float = 0.194,  # Binned: 0.388, else 0.194
+        sensor_height: int = 768,  # Vero, Binned: 768, else 1536 ExacTrac Dynamic
+        sensor_width: int = 1024,  # Vero, Binned: 768, else 1536 ExacTrac Dynamic
+        pixel_size: float = 0.388,  # Vero, Binned: 0.388, else 0.194 ExacTrac Dynamic
         rotate_camera_left: bool = True,  # make it so that down in the image corresponds to -x, so that patient images appear as expected (when gamma=0).
         enforce_isocenter_bounds: bool = False,  # Allow the isocenter to travel arbitrarily far from the device origin
     ) -> None:
