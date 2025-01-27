@@ -61,8 +61,8 @@ class MobileCArm(Device):
         min_alpha: float = 0,
         max_alpha: float = 360,
         # note that this would collide with the patient. Suggested to limit to +/- 45
-        min_beta: float = -225,
-        max_beta: float = 225,
+        min_beta: float = 0,
+        max_beta: float = 360,
         source_to_detector_distance: float = 1876,  # Vero, 1020 default, 3639 ExacTrac Dynamic
         # vertical component of the source point offset from the isocenter of rotation, in -Z. Previously called `isocenter_distance`
         source_to_isocenter_vertical_distance: float = 1000,  # Vero, 530 default, 2209.86 ExacTrac Dynamic
