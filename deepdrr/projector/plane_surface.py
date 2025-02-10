@@ -1,6 +1,6 @@
 from typing import Tuple
 
-from deepdrr import geo
+from DeepDRR.deepdrr import geo
 import numpy as np
 
 class PlaneSurface:

@@ -7,8 +7,8 @@ from typing import Tuple, Optional, Dict, List
 import logging
 import numpy as np
 from . import spectral_data
-from deepdrr import geo
-from deepdrr import vol
+from DeepDRR.deepdrr import geo
+from DeepDRR.deepdrr import vol
 from .rita import RITA
 from .plane_surface import PlaneSurface
 
