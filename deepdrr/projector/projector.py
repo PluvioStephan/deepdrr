@@ -190,6 +190,7 @@ class Projector(object):
         attenuate_outside_volume: bool = False,
         source_to_detector_distance: float = -1,
         carm: Optional[Device] = None,
+        path_to_table_coefficients: str = None,
     ) -> None:
         """Create the projector, which has info for simulating the DRR.
 
@@ -222,7 +223,13 @@ class Projector(object):
             intensity_upper_bound (float, optional): Maximum intensity, clipped before neglog, after noise and scatter. A good value is 40 keV / photon. Defaults to None.
             source_to_detector_distance (float, optional): If `device` is not provided, this is the distance from the source to the detector. This limits the lenght rays are traced for. Defaults to -1 (no limit).
             carm (MobileCArm, optional): Deprecated alias for `device`. See `device`.
+            path_to_table_coefficients (str, optional): When the TotalSegmentator segmentation is used and the table is
+                replaced, this is the path for loading the mass attenuation coefficients of the table air mixture.
         """
+
+        # Load table equivalence mass attenuation coefficients
+        if path_to_table_coefficients is not None:
+            material_coefficients["table"] = np.load(f"{path_to_table_coefficients}/table_mass_atten_coeff.npy")
 
         # set variables
         volume = utils.listify(volume)
