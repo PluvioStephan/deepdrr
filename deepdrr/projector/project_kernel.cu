@@ -24,7 +24,7 @@
 
 #define LOAG_SEGS_FOR_VOL_MAT(vol_id, mat_id)                                  \
   do {                                                                         \
-    seg_at_alpha[vol_id][mat_id] = (cubicTex3D(SEG(vol_id, mat_id),            \
+    seg_at_alpha[vol_id][mat_id] = (cubicTex3D(SEG(vol_id, mat_id),       \
                                     px[vol_id],                                \
                                     py[vol_id], pz[vol_id]));                  \
   } while (0)
@@ -3658,7 +3658,7 @@ __global__ void projectKernel(
                         // seg_at_alpha[...][...]
     // if (debug) printf("  loaded segs\n"); // This is the one that seems to
     // take a half a second.
-    //
+    
     curr_priority = NUM_VOLUMES;
     n_vols_at_curr_priority = 0;
     for (int i = 0; i < NUM_VOLUMES; i++) {
@@ -3668,14 +3668,33 @@ __global__ void projectKernel(
       if ((alpha < minAlpha_vol[i]) || (alpha > maxAlpha_vol[i])) {
         continue;
       }
-      float any_seg = 0.0f;
+
+      // New: Set maximum segmentation class entry to 1 and the rest to zero
+      // Doesn't work with multiple volumes that have incomplete segmentations yet
+      // ToDo: When no segmentation is available, set all to 0
+      float max_seg_prob = 0.0;
+      int max_seg_index = 0;
       for (int m = 0; m < NUM_MATERIALS; m++) {
-        any_seg += seg_at_alpha[i][m];
-        if (any_seg > 0.0f) {
-          break;
-        }
+          if (max_seg_prob < seg_at_alpha[i][m]) {
+              max_seg_prob = seg_at_alpha[i][m];
+
+              seg_at_alpha[i][max_seg_index] = 0.0f;
+              seg_at_alpha[i][m] = 1.0f;
+
+              max_seg_index = m;
+          } else {
+              seg_at_alpha[i][m] = 0.0f;
+          }
       }
-      if (0.0f == any_seg) {
+
+      //float any_seg = 0.0f;
+      //for (int m = 0; m < NUM_MATERIALS; m++) {
+        //any_seg += seg_at_alpha[i][m];
+        //if (any_seg > 0.0f) {
+          //break;
+        //}
+      //}
+      if (0.0f == max_seg_prob) {  //  any_seg
         continue;
       }
 
