@@ -74,15 +74,15 @@ def show(
     if mesh is not None:
         plotter.add_mesh(mesh, color=mesh_color)
 
-    items = item
+    items = item[0]
     fulls = utils.listify(full, len(items))
     use_cacheds = utils.listify(use_cached, len(items))
-    for i, item in enumerate(items):
+    for i, itemm in enumerate(items):
         color = colors[i % len(colors)]
-        if hasattr(item, "get_mesh_in_world"):
-            mesh = item.get_mesh_in_world(full=fulls[i], use_cached=use_cacheds[i])
+        if hasattr(itemm, "get_mesh_in_world"):
+            mesh = itemm.get_mesh_in_world(full=fulls[i], use_cached=use_cacheds[i])
         else:
-            mesh = item
+            mesh = itemm
         plotter.add_mesh(mesh, color=color)
 
     plotter.reset_camera()
