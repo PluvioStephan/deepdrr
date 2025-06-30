@@ -41,7 +41,7 @@ log = logging.getLogger(__name__)
 
 def show(
     *item: Any,
-    full: Union[bool, List[bool]] = False,
+    full: Union[bool, List[bool]] = True,
     colors: List[str] = ["tan", "cyan", "green", "red"],
     background: str = "white",
     use_cached: Union[bool, List[bool]] = True,

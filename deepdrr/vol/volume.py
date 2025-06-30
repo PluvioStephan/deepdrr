@@ -1202,7 +1202,7 @@ class Volume(object):
                 use_cached=use_cached,
             )
 
-            material_mesh.transform(geo.get_data(self.world_from_anatomical))
+            material_mesh.transform(geo.get_data(self.world_from_anatomical), inplace=True)
             mesh += material_mesh
 
         return mesh

@@ -63,9 +63,9 @@ class MobileCArm(Device):
         # note that this would collide with the patient. Suggested to limit to +/- 45
         min_beta: float = 0,
         max_beta: float = 360,
-        source_to_detector_distance: float = 1876,  # Vero, 1020 default, 3639 ExacTrac Dynamic
+        source_to_detector_distance: float = 3534, # 1876,  # Vero, 1020 default, 3639 ExacTrac Dynamic
         # vertical component of the source point offset from the isocenter of rotation, in -Z. Previously called `isocenter_distance`
-        source_to_isocenter_vertical_distance: float = 1000,  # Vero, 530 default, 2209.86 ExacTrac Dynamic
+        source_to_isocenter_vertical_distance: float = 2190.5, #1000,  # Vero, 530 default, 2209.86 ExacTrac Dynamic
         # horizontal offset of the principle ray from the isocenter of rotation, in +Y. Defaults to 9, but should be 200 in document.
         source_to_isocenter_horizontal_offset: float = 0,
         # horizontal distance from principle ray to inner C-arm circumference. Used for visualization
@@ -73,7 +73,7 @@ class MobileCArm(Device):
         # distance from central ray to edge of arm. Used for visualization
         free_space: float = 820,
         sensor_height: int = 768,  # Vero, Binned: 768, else 1536 ExacTrac Dynamic
-        sensor_width: int = 1024,  # Vero, Binned: 768, else 1536 ExacTrac Dynamic
+        sensor_width: int = 768, # 1024,  # Vero, Binned: 768, else 1536 ExacTrac Dynamic
         pixel_size: float = 0.388,  # Vero, Binned: 0.388, else 0.194 ExacTrac Dynamic
         rotate_camera_left: bool = True,  # make it so that down in the image corresponds to -x, so that patient images appear as expected (when gamma=0).
         enforce_isocenter_bounds: bool = False,  # Allow the isocenter to travel arbitrarily far from the device origin
@@ -476,25 +476,33 @@ class MobileCArm(Device):
                 height=self.source_height,
             )
 
-            # Sensor
+            # Sensor / detector
+            x_min = -self.pixel_size * self.sensor_width / 2
+            x_max = self.pixel_size * self.sensor_width / 2
+            y_min = -self.pixel_size * self.sensor_height / 2 + self.source_to_isocenter_horizontal_offset
+            y_max = self.pixel_size * self.sensor_height / 2 + self.source_to_isocenter_horizontal_offset
+            z_min = -self.source_to_isocenter_vertical_distance + self.source_to_detector_distance
+            z_max = -self.source_to_isocenter_vertical_distance + self.source_to_detector_distance + self.detector_height
+
             mesh += pv.Box(
                 bounds=[
-                    -self.pixel_size * self.sensor_width / 2,
-                    self.pixel_size * self.sensor_width / 2,
-                    -self.pixel_size * self.sensor_height / 2
-                    + self.source_to_isocenter_horizontal_offset,
-                    self.pixel_size * self.sensor_height / 2
-                    + self.source_to_isocenter_horizontal_offset,
-                    -self.source_to_isocenter_vertical_distance
-                    + self.source_to_detector_distance,
-                    -self.source_to_isocenter_vertical_distance
-                    + self.source_to_detector_distance
-                    + self.detector_height,
+                    x_min,
+                    x_max,
+                    y_min,
+                    y_max,
+                    z_min,
+                    z_max,
                 ],
             )
 
+            # Window lines
+            mesh += pv.Line(list(source_point), list(source_point + geo.vector(x_min, y_min, self.source_to_detector_distance)))
+            mesh += pv.Line(list(source_point), list(source_point + geo.vector(x_min, y_max, self.source_to_detector_distance)))
+            mesh += pv.Line(list(source_point), list(source_point + geo.vector(x_max, y_min, self.source_to_detector_distance)))
+            mesh += pv.Line(list(source_point), list(source_point + geo.vector(x_max, y_max, self.source_to_detector_distance)))
+
             # Arm
-            arm = pv.ParametricTorus(
+            """arm = pv.ParametricTorus(
                 ringradius=self.source_to_isocenter_vertical_distance,
                 crosssectionradius=self.arm_width / 2,
             )
@@ -504,8 +512,8 @@ class MobileCArm(Device):
                 source_point.y - self.source_radius,
             )
             arm.clip(normal="y", origin=[0, y, 0], inplace=True)
-            arm.rotate_y(90)
-            mesh += arm
+            arm.rotate_y(90, inplace=True)
+            mesh += arm"""
 
         return mesh
 
@@ -520,9 +528,9 @@ class MobileCArm(Device):
             self._static_mesh = self._make_mesh(full=full)
 
         mesh = self._static_mesh.copy()
-        mesh.rotate_x(np.degrees(self.alpha))
-        mesh.rotate_y(np.degrees(self.beta))
-        mesh.translate(self.isocenter.data[:-1])
+        mesh.rotate_x(np.degrees(self.alpha), inplace=True)
+        mesh.rotate_y(np.degrees(self.beta), inplace=True)
+        mesh.translate(self.isocenter.data[:-1], inplace=True)
         mesh.transform(geo.get_data(self.world_from_device), inplace=True)
 
         # TODO: add cone window.
